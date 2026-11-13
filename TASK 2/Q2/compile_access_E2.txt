@@ -1,0 +1,8 @@
+Q2/access_check.cpp: In function 'int main()':
+Q2/access_check.cpp:29:12: error: 'int P::pub' is inaccessible within this context
+   29 |     x += c.pub;                      // E2: private inheritance -> pub is private outside
+      |            ^~~
+Q2/access_check.cpp:2:23: note: declared here
+    2 | class P { public: int pub = 1; protected: int prot = 2; private: int priv = 3; };
+      |                       ^~~
+compile exit code: 1

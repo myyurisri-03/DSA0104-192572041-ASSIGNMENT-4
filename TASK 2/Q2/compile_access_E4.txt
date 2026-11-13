@@ -1,0 +1,8 @@
+Q2/access_check.cpp: In member function 'int Bad::f()':
+Q2/access_check.cpp:19:49: error: 'int P::priv' is private within this context
+   19 | class Bad : public P { public: int f() { return priv; } };   // E4: private member never accessible in derived
+      |                                                 ^~~~
+Q2/access_check.cpp:2:70: note: declared private here
+    2 | class P { public: int pub = 1; protected: int prot = 2; private: int priv = 3; };
+      |                                                                      ^~~~
+compile exit code: 1

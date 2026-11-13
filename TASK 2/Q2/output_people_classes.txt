@@ -1,0 +1,3 @@
+1001 Kavya 9876543210 | MCA CGPA 8.7 | CSE Rs 25000
+1002 Arun 9123456780 | PhD CGPA 9.1 | fellowship Rs 31000
+run exit code: 0

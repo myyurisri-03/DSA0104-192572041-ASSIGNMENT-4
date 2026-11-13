@@ -1,0 +1,9 @@
+Q2/ambiguity_demo.cpp: In function 'int main()':
+Q2/ambiguity_demo.cpp:16:21: error: request for member 'name' is ambiguous
+   16 |     std::cout << ta.name << '\n';        // ambiguous when NONVIRTUAL
+      |                     ^~~~
+Q2/ambiguity_demo.cpp:10:29: note: candidates are: 'std::string Person::name'
+   10 | struct Person { std::string name = "Kavya"; };
+      |                             ^~~~
+Q2/ambiguity_demo.cpp:10:29: note:                 'std::string Person::name'
+compile exit code: 1

@@ -1,0 +1,8 @@
+Q2/access_check.cpp: In member function 'int DPrivDeeper::g()':
+Q2/access_check.cpp:12:22: error: 'int P::pub' is private within this context
+   12 |     int g() { return pub; }          // E5: P::pub is private in DPriv -> not accessible here
+      |                      ^~~
+Q2/access_check.cpp:6:7: note: declared private here
+    6 | class DPriv : private P   { public: int f() { return pub + prot; } };     // pub, prot become private
+      |       ^~~~~
+compile exit code: 1
