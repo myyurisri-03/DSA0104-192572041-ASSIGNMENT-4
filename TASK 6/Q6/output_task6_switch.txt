@@ -1,0 +1,6 @@
+BC-01   bill = Rs    300.00
+TW-07   bill = Rs   1365.00
+CAR-22  bill = Rs   3450.00
+EV-05   bill = Rs   5450.00
+sizeof(Vehicle) = 80 bytes for EVERY vehicle (a bicycle wastes the motor/seat/battery fields)
+run exit code: 0

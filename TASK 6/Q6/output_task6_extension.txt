@@ -1,0 +1,5 @@
+Car          CAR-22  1200.00  free    level=40 service due 1/1/2027 seats=5
+ElectricBus  EB-01   6000.00  free    level=95 service due 10/3/2027 seats=40 battery=250kWh
+CAR-22 bill: Rs 3450.00
+EB-01  bill: Rs 15960.00  (1 day + 120 kWh + 1 late day)
+run exit code: 0

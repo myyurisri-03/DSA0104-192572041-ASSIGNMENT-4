@@ -1,0 +1,28 @@
+--- Fleet before renting ---
+Bicycle      BC-01    100.00  free    
+TwoWheeler   TW-07    300.00  free    level=8 service due 15/12/2026
+Car          CAR-22  1200.00  free    level=40 service due 1/1/2027 seats=5
+ElectricCar  EV-05   1500.00  free    level=90 service due 20/2/2027 seats=5 battery=40kWh
+
+--- Renting every vehicle ---
+BC-01 rented
+TW-07 rented
+CAR-22 rented
+EV-05 rented
+BC-01 again: rejected (already rented)
+
+--- Returning (days, lateDays, usage) ---
+BC-01   days=3 late=0 usage=0.00  bill = Rs    300.00
+TW-07   days=2 late=1 usage=3.00  bill = Rs   1365.00
+CAR-22  days=2 late=0 usage=10.00  bill = Rs   3450.00
+EV-05   days=2 late=1 usage=25.00  bill = Rs   5450.00
+Returning BC-01 twice: bill = -1.00 (-1 means not rented)
+
+--- Fleet after returning ---
+Bicycle      BC-01    100.00  free    
+TwoWheeler   TW-07    300.00  free    level=8 service due 15/12/2026
+Car          CAR-22  1200.00  free    level=40 service due 1/1/2027 seats=5
+ElectricCar  EV-05   1500.00  free    level=90 service due 20/2/2027 seats=5 battery=40kWh
+
+sizeof: Bicycle=56 TwoWheeler=80 Car=80 ElectricCar=88
+run exit code: 0
