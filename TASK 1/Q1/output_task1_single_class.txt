@@ -1,0 +1,6 @@
+Dr. Meena      128600.00
+Ravi            42600.00
+Anita           60000.00
+Total payroll: 231200.00
+sizeof(Staff) = 80 bytes for EVERY object (unused fields included)
+run exit code: 0

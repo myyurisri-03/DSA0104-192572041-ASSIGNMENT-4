@@ -1,0 +1,6 @@
+Professor     Dr. Meena      128600.00
+LabAssistant  Ravi            42600.00
+GuestFaculty  Anita           60000.00
+Total payroll: 231200.00
+sizeof(Professor)=64 sizeof(LabAssistant)=56 sizeof(GuestFaculty)=64
+run exit code: 0
