@@ -1,0 +1,7 @@
+a.total()  = 324.00
+p->total() = 324.00
+r.total()  = 324.00
+h->total() = 90.00
+this == &a ? true
+Highest total: Asha = 324.00
+run exit code: 0

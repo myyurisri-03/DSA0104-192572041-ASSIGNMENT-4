@@ -1,0 +1,4 @@
+sizeof(Cart) = 408 bytes (copied into the vector)   sizeof(Cart*) = 8 bytes
+capacity grew 1 -> 2; address of element 0 CHANGED (old pointers into the vector now dangle)
+highest total found by one pass over 2 carts: 10
+run exit code: 0
