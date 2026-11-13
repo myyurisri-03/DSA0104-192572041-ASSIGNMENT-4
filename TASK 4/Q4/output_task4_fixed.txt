@@ -1,0 +1,9 @@
+Account() Account() SeniorAccount() 
+3.5
+4
+~Account
+~SeniorAccount (history released) ~Account
+Account() SeniorAccount() 
+ref.rate() = 4
+~SeniorAccount (history released) ~Account
+run exit code: 0

@@ -1,0 +1,8 @@
+Q4/task4_fixed.cpp: In function 'int main()':
+Q4/task4_fixed.cpp:29:34: error: use of deleted function 'Account::Account(const Account&)'
+   29 |     Account copy = SeniorAccount();                              // does not compile now
+      |                                  ^
+Q4/task4_fixed.cpp:7:5: note: declared here
+    7 |     Account(const Account&) = delete;                    // copying (and so slicing) is impossible
+      |     ^~~~~~~
+compile exit code: 1

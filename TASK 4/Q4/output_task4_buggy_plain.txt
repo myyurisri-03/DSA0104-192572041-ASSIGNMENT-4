@@ -1,0 +1,9 @@
+Account() Account() SeniorAccount() 
+3.5
+3.5
+~Account
+~Account
+Account() SeniorAccount() ~SeniorAccount (history released) ~Account
+copy.rate() = 3.5
+~Account
+run exit code: 0
