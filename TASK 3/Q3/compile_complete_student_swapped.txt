@@ -1,0 +1,11 @@
+Q3/complete_student_swapped.cpp: In constructor 'Student::Student(const std::string&, int, long long int, const std::string&, int)':
+Q3/complete_student_swapped.cpp:19:13: warning: 'Student::home' will be initialized after [-Wreorder]
+   19 |     Address home;
+      |             ^~~~
+Q3/complete_student_swapped.cpp:18:15: warning:   'long long int Student::regNo' [-Wreorder]
+   18 |     long long regNo;
+      |               ^~~~~
+Q3/complete_student_swapped.cpp:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Student(const std::string& n, int a, long long reg, const std::string& city, int pin)
+      |     ^~~~~~~
+compile exit code: 0

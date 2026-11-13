@@ -1,0 +1,3 @@
+Person Student Person Staff TA | ~TA ~Staff ~Person ~Student ~Person 
+sizeof(Person)=40 sizeof(TeachingAssistant)=96
+run exit code: 0

@@ -1,0 +1,4 @@
+Student          : Address Person Course Student | ~Student ~Course ~Person ~Address 
+Staff            : Address Person Staff | ~Staff ~Person ~Address 
+TeachingAssistant: Address Person Course Student Staff TA | ~TA ~Staff ~Student ~Course ~Person ~Address 
+run exit code: 0
